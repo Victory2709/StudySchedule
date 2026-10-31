@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.StudySchedule" parent="Theme.AppCompat.Light.DarkActionBar" />
+</resources>

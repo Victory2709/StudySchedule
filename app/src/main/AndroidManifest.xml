@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <application
+        android:allowBackup="true"
+        android:label="Study Schedule"
+        android:theme="@style/Theme.StudySchedule">
+        <activity android:name=".LoginActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AdminMainActivity" android:exported="false" />
+        <activity android:name=".StudentManageActivity" android:exported="false" />
+        <activity android:name=".SubjectManageActivity" android:exported="false" />
+        <activity android:name=".StudentMainActivity" android:exported="false" />
+        <activity android:name=".ScheduleListActivity" android:exported="false" />
+        <activity android:name=".ScheduleEditActivity" android:exported="false" />
+        <activity android:name=".CalendarActivity" android:exported="false" />
+        <receiver android:name=".ReminderReceiver" android:exported="false" />
+    </application>
+</manifest>
